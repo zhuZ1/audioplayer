@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 320px;
+    height: 600px;
+    background-color: #973444 ;
+    margin: 0 auto;
+}
+.circle{
+    width: 190px;
+    height: 190px;
+    margin: 20px auto;
+}
+.rotate{
+    animation: change 10s infinite linear;
+}
+@keyframes change {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+.title{
+    width: 320px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.singer{
+    width: 320px;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+.lrc{
+    width: 250px;
+    height: 270px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.lrc-con{
+    color: #fff;
+    text-align: center;
+    line-height: 12px;
+    font-size: 12px;
+}
